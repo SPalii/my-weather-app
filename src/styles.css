@@ -1,0 +1,103 @@
+.container {
+   width: 100%;
+   padding-top: 30px;
+}
+
+.box {
+   border: 2px solid #0b438b;
+   background: #c7d7ffc6;
+   padding: 15px;
+   margin: 20px auto;
+   border-radius: 8px;
+   max-width: 620px;
+   box-shadow: 5px 5px 5px rgb(181, 175, 175);
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.box-serch {
+   padding-top: 10px;
+}
+
+.box-city {
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.box-wind {
+   text-align: center;
+   padding-bottom: 15px;
+}
+
+.box-week {
+   margin-top: 10px;
+
+}
+
+.weather-icon {
+   height: 64px;
+   width: 64px;
+   margin-right: 10px;
+}
+
+.enter,
+.search,
+
+.current,
+.card {
+   box-shadow: 3px 3px 3px rgb(181, 175, 175);
+}
+
+.img-sun {
+   width: 80px;
+}
+
+.list {
+   font-size: 16px;
+   font-weight: bold;
+   list-style: none;
+   text-align: left;
+}
+
+.c-f {
+   font-weight: bold;
+   text-align: center;
+}
+
+#celsius-link,
+#fahrenheit-link {
+   text-decoration: none;
+}
+
+.col-2 {
+   font-weight: bold;
+}
+
+.card-img-sun,
+.card-img-rain,
+.card-img-sun-cloud,
+.card-img-cloudy-rain,
+.card-img-sun-30,
+.card-img-sun-cloud-30.png {
+   width: 30px;
+   margin: 0 auto;
+}
+
+.measuring {
+   text-align: center;
+   font-size: 19px;
+}
+
+.units {
+   font-size: 20px;
+}
+
+.w-20 {
+   -webkit-box-flex: 0;
+   -ms-flex: 0 0 20%;
+   flex: 0 0 20%;
+   max-width: 20%;
+   text-align: center;
+
+   padding: 8px;
+}
